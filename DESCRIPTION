@@ -1,0 +1,11 @@
+Package: lohrData
+Type: Package
+Title: Lohrs Data
+Version: 0.01
+Date: 2014-09-09
+Author: Zack W. Almquist <almquist@umn.edu>
+Maintainer: Zack W. Almquist <almquist@umn.edu>
+Description: Data for Statistics 5201
+License: GPL (>= 2)
+Depends: R (>= 2.10)
+LazyLoad: yes
