@@ -27,15 +27,15 @@
 #    packageStartupMessage('Type help(package=UScensus2000) to get started.')
 #}
 
-.onAttach <- function(libname, pkgname){
-  	temp<-packageDescription("lohrData")
-  	msg<-paste(temp$Package,": ",temp$Title,"\n",
-      "Version ",temp$Version,
-      " created on ",
-      temp$Date,".\n", sep="")
-  msg<-paste(msg,"copyright (c) 2014, Zack W. Almquist, University of Minnesota\n",sep="")
-
-  msg<-paste(msg,'For citation information, type citation("lohrData").\n')
-  msg<-paste(msg,'Type help(package="lohrData") to get started.\n')
-  packageStartupMessage(msg)
-}
+#.onAttach <- function(libname, pkgname){
+#  	temp<-packageDescription("lohrData")
+#  	msg<-paste(temp$Package,": ",temp$Title,"\n",
+#      "Version ",temp$Version,
+#      " created on ",
+#      temp$Date,".\n", sep="")
+#  msg<-paste(msg,"copyright (c) 2014, Zack W. Almquist, University of Minnesota\n",sep="")
+#
+#  msg<-paste(msg,'For citation information, type citation("lohrData").\n')
+#  msg<-paste(msg,'Type help(package="lohrData") to get started.\n')
+#  packageStartupMessage(msg)
+#}
