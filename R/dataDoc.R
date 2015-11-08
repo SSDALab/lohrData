@@ -9,6 +9,7 @@
 #  cat("\"",i,"\"","\n",sep="")
 #  }
 #}
+
 #' agpop 
 #' 
 #' A dataset from Lohr's Textbook on sampling
@@ -247,3 +248,12 @@
 #' @format data.frame
 #' @source Sharon Lohr (2010). \emph{Sampling: Design and Analysis, 2nd Edition}, Duxbury Press.
 "winter"
+#' cherry
+#' 
+#' A dataset from Lohr's Textbook on sampling
+#' 
+#' @format data.frame
+#' @source Sharon Lohr (2010). \emph{Sampling: Design and Analysis, 2nd Edition}, Duxbury Press.
+"cherry"
+
+
